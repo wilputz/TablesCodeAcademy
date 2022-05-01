@@ -1,0 +1,52 @@
+html{
+    background-image: linear-gradient(rgb(188, 188, 228), rgb(221, 221, 245));
+}
+
+h1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: rgb(98, 98, 223);
+    border-radius: 10px 10px;
+    padding: 10px;
+}
+
+table{
+    border: 6px solid rgb(171, 171, 218);
+    border-radius: 15px 15px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(156, 156, 213);
+    box-shadow: 5px 5px 5px 5px rgb(136, 136, 215);
+    font-family: "Poppins", sans-serif;
+}
+
+tr{
+    border:  1px solid black;
+}
+
+th{
+    border: 2px solid black;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgb(98, 98, 223);
+}
+
+td{
+    border: 1px solid white;
+    color: rgba(255, 255, 255, 0.831);
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(77, 76, 98);
+    font-size: 20px;
+}
+
+tr:hover{
+    background-color: rgb(15, 19, 54);
+    transition: 0.5s;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.93);
+    text-decoration: none;
+}
